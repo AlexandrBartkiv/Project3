@@ -11,7 +11,7 @@ public class Numbers {
     public static BufferedReader stdIn =new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        whileDemo();
+        formatTest();
     }
     public static void splitTest() throws IOException {
         System.out.println("введите строку ->");
@@ -53,9 +53,10 @@ public class Numbers {
             a+=1;
         }
     }
-    public static void formatTest(){
+    public static void formatTest() {
         System.out.format("%sx^2+%sx+%s=0",10,150,2+9);
     }
+
     public static void whileDemo(){
         int x=1;
         while(x<=10){
