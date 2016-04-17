@@ -11,7 +11,7 @@ public class Numbers {
     public static BufferedReader stdIn =new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        whileDemo();
+        whileTest();
     }
     public static void splitTest() throws IOException {
         System.out.println("введите строку ->");
